@@ -1,0 +1,34 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.ii.springboot.redis.RedisConfig",
+      "name": "spring.redis",
+      "type": "com.ii.springboot.redis.RedisConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.ii.springboot.redis.RedisConfig",
+      "name": "spring.redis.host",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ii.springboot.redis.RedisConfig",
+      "name": "spring.redis.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.ii.springboot.redis.RedisConfig",
+      "defaultValue": 0,
+      "name": "spring.redis.port",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.ii.springboot.redis.RedisConfig",
+      "defaultValue": 0,
+      "name": "spring.redis.timeout",
+      "type": "java.lang.Integer"
+    }
+  ]
+}

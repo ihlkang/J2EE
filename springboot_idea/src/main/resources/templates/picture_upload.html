@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>OCR-Online</title>
+
+    <meta name="keywords" content="keyword1,keyword2,keyword3" />
+    <meta name="description" content="this is my page" />
+    <meta name="content-type" content="text/html; charset=UTF-8" />
+    <script type="text/javascript" th:src="@{/js/jquery-3.3.1.min.js}" ></script>
+    <script type="text/javascript" th:src="@{/js/show.js}" ></script>
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
+</head>
+<style>
+    #pic{
+        text-align: center;
+    }
+    #input{
+        text-align: center;
+    }
+</style>
+<body>
+<!--<div id = "pic"><img alt="only a picture" src="../static/img/logo.jpg"/></div>-->
+<div id = "input"><input type="file" id="fileToUpload" name="fileToUpload"/>
+    <input type="button" value="上传" onclick="Upload()"/></div>
+<textarea rows="20" cols="60" id = "num_data"></textarea>
+</body>
+</html>
